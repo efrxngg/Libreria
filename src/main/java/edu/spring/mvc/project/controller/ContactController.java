@@ -14,7 +14,7 @@ import edu.spring.mvc.project.domain.entity.Contact;
 import edu.spring.mvc.project.service.IContactService;
 
 @RestController
-@RequestMapping(value = "/contact")
+@RequestMapping(value = "/api/v1/contact")
 public class ContactController {
 
     @Autowired

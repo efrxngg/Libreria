@@ -14,7 +14,7 @@ import edu.spring.mvc.project.domain.entity.Author;
 import edu.spring.mvc.project.service.IAuthorService;
 
 @RestController
-@RequestMapping(value = "/author")
+@RequestMapping(value = "/api/v1/author")
 public class AuthorController {
 
     @Autowired

@@ -14,7 +14,7 @@ import edu.spring.mvc.project.domain.entity.Style;
 import edu.spring.mvc.project.service.IStyleService;
 
 @RestController
-@RequestMapping(value = "/style")
+@RequestMapping(value = "/api/v1/style")
 public class StyleController {
 
     @Autowired

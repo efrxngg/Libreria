@@ -14,7 +14,7 @@ import edu.spring.mvc.project.domain.entity.Theme;
 import edu.spring.mvc.project.service.IThemeService;
 
 @RestController
-@RequestMapping(value = "/theme")
+@RequestMapping(value = "/api/v1/theme")
 public class ThemeController {
 
     @Autowired

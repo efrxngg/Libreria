@@ -16,7 +16,7 @@ import edu.spring.mvc.project.domain.entity.Book;
 import edu.spring.mvc.project.service.IBookService;
 
 @RestController
-@RequestMapping(value = "/book")
+@RequestMapping(value = "/api/v1/book")
 public class BookController {
 
     @Autowired
